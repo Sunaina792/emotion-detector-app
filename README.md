@@ -20,40 +20,33 @@ The Emotion Detector App uses a webcam feed or static images to detect human fac
 ---
 
 ## 🗂️ Project Structure
+```bash
 emotion-detector-app/
-
 │
-
 ├── main.py # Core logic for emotion detection
-
 ├── app.py # Web interface using Flask/Streamlit
-
 ├── emotion_log.csv # CSV log of detected emotions
-
 ├── requirements.txt # Project dependencies
-
 └── README.md # Project documentation
-
+```
 ---
 
 ## 🔧 Installation & Run
 
 1. **Clone the repository**
 
-bash
+```bash
 git clone https://github.com/Sunaina792/emotion-detector-app.git
 cd emotion-detector-app
-
+```
 2.Install dependencies
-bash
-
+```bash
 pip install -r requirements.txt
-
+```
 3. Run the application
-bash
-
+```bash
 python app.py
-
+```
 ---
 
 ## 📦 Dependencies
