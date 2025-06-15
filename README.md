@@ -1,5 +1,3 @@
-# emotion-detector-app
-
 # 🎭 Emotion Detector App
 
 A real-time emotion detection web application built using Python, OpenCV, and deep learning. This project identifies and classifies human facial emotions such as Happy, Sad, Angry, Surprised, and more.
