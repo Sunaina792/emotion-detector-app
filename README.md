@@ -10,7 +10,7 @@ A real-time emotion detection application powered by a custom-trained Convolutio
 ## 🎯 Features
 
 ### Core Functionality
-- **Real-Time Emotion Detection**: Detects 7 different emotions from live webcam feed
+- **Real-Time Emotion Detection**: Detects different emotions from live webcam feed
 - **Custom CNN Model**: Trained on the FER2013 dataset with 30,000+ images
 - **Multi-Face Detection**: Can detect and analyze multiple faces simultaneously
 - **High Accuracy**: ~62% validation accuracy on complex emotion recognition tasks
@@ -46,7 +46,6 @@ The system can recognize the following emotions:
 ```
 Emotion Detector/
 ├── app_advanced.py              # Advanced Streamlit application
-├── app.py                       # Basic Streamlit application
 ├── main.py                      # OpenCV-based CLI version with CSV logging
 ├── emotion_detection_model.h5   # Trained CNN model weights
 ├── Emotion_Recognition_Train.ipynb  # Model training notebook
@@ -104,20 +103,8 @@ Then open your browser to `http://localhost:8501`
 - Modern, responsive UI
 - Real-time analytics dashboard
 
-### Option 2: Basic Web Application
 
-Run the simpler Streamlit version:
-
-```bash
-python -m streamlit run app.py
-```
-
-**Features:**
-- Clean, minimal interface
-- Start/Stop controls
-- Real-time emotion detection
-
-### Option 3: Command-Line Version
+### Option 2: Command-Line Version
 
 Run the OpenCV-based version with CSV logging:
 
@@ -133,6 +120,8 @@ python main.py
 ## 🧪 Model Architecture
 
 The emotion detection model is a custom CNN with the following architecture:
+
+![CNN MODEL architecture](cnn_architecture.png)
 
 ```
 Input: 48x48 grayscale images
