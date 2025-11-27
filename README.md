@@ -121,6 +121,8 @@ python main.py
 
 The emotion detection model is a custom CNN with the following architecture:
 
+![CNN MODEL architecture](cnn_architecture.png)
+
 ```
 Input: 48x48 grayscale images
 ├── Conv2D (64 filters, 3x3) + ReLU
